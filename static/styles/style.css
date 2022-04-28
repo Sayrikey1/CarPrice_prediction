@@ -9,9 +9,20 @@ body {
     z-index: 1;
     background-color: #1540A5;
     margin: 0 auto;
-    width: 60%;
+    width: 90%;
     height: 60%;
     box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        z-index: 1;
+        background-color: #1540A5;
+        margin: 0 auto;
+        width: 60%;
+        height: 60%;
+        box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.4);
+    }
 }
 
 .heading {
